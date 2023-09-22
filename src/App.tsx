@@ -1,7 +1,10 @@
+import { DropdownWrappes } from "@components/dropdown/DropdownWrappes"
 
 function App() {
   return (
-    <p>Hello</p>
+    <div>
+      <DropdownWrappes />
+    </div>
   )
 }
 
