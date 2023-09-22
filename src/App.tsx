@@ -1,6 +1,8 @@
 import { ImageCardWrapper } from '@components/card/ImageCardWrapper'
+import { Carousel } from '@components/carousel/Carousel'
 import { DropdownWrappes } from '@components/dropdown/DropdownWrappes'
 import { SwitchWrapper } from '@components/switch/SwitchWrapper'
+import { CarouselWrapper } from '@components/carousel/CarouselWrapper'
 
 
 
@@ -9,7 +11,8 @@ function App() {
     <div>
       {/* <DropdownWrappes /> */}
       {/* <SwitchWrapper /> */}
-      <ImageCardWrapper />
+      {/* <ImageCardWrapper /> */}
+      <CarouselWrapper />
     </div>
   )
 }
