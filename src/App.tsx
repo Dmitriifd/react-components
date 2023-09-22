@@ -1,9 +1,11 @@
-import { DropdownWrappes } from "@components/dropdown/DropdownWrappes"
+import { DropdownWrappes } from '@components/dropdown/DropdownWrappes'
+import { SwitchWrapper } from '@components/switch/SwitchWrapper'
 
 function App() {
   return (
     <div>
-      <DropdownWrappes />
+      {/* <DropdownWrappes /> */}
+      <SwitchWrapper />
     </div>
   )
 }
