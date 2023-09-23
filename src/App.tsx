@@ -5,6 +5,7 @@ import { CarouselWrapper } from '@components/carousel/CarouselWrapper'
 import { Toast } from '@components/toast/Toast'
 import { SidebarWrapper } from '@components/sidebar/SidebarWrapper'
 import { RadioWrapper } from '@components/radio/RadioWrapper'
+import ModalWrapper from '@components/modal/ModalWrapper'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <CarouselWrapper /> */}
       {/* <Toast /> */}
       {/* <SidebarWrapper /> */}
-      <RadioWrapper />
+      {/* <RadioWrapper /> */}
+      <ModalWrapper />
     </div>
   )
 }
