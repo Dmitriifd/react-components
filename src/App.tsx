@@ -4,6 +4,7 @@ import { SwitchWrapper } from '@components/switch/SwitchWrapper'
 import { CarouselWrapper } from '@components/carousel/CarouselWrapper'
 import { Toast } from '@components/toast/Toast'
 import { SidebarWrapper } from '@components/sidebar/SidebarWrapper'
+import { RadioWrapper } from '@components/radio/RadioWrapper'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <ImageCardWrapper /> */}
       {/* <CarouselWrapper /> */}
       {/* <Toast /> */}
-      <SidebarWrapper />
+      {/* <SidebarWrapper /> */}
+      <RadioWrapper />
     </div>
   )
 }
