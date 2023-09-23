@@ -34,6 +34,7 @@ const ToastProvider = ({ children }: { children: ReactNode }) => {
             rounded-lg bg-gray-200/20 text-gray-800/60">
               <X />
             </button>
+            <div>lorem ipsum more</div>
             {component}
           </div>
         ))}

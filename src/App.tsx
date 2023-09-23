@@ -3,8 +3,7 @@ import { DropdownWrappes } from '@components/dropdown/DropdownWrappes'
 import { SwitchWrapper } from '@components/switch/SwitchWrapper'
 import { CarouselWrapper } from '@components/carousel/CarouselWrapper'
 import { Toast } from '@components/toast/Toast'
-
-
+import { SidebarWrapper } from '@components/sidebar/SidebarWrapper'
 
 function App() {
   return (
@@ -13,7 +12,8 @@ function App() {
       {/* <SwitchWrapper /> */}
       {/* <ImageCardWrapper /> */}
       {/* <CarouselWrapper /> */}
-      <Toast />
+      {/* <Toast /> */}
+      <SidebarWrapper />
     </div>
   )
 }
