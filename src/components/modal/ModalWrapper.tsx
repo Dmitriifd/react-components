@@ -29,7 +29,7 @@ const ModalWrapper = () => {
             </div>
           </div>
         </Modal>,
-        document.body
+        document.querySelector('#modals') || document.body
       )}
     </div>
   )
