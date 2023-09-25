@@ -29,6 +29,8 @@ const Modal = ({ open = true, onClose, children }: Modal) => {
 
   useEffect(() => (open ? setOverflow('hidden') : setOverflow('auto')), [open])
 
+  if(!open) return null
+
   return (
     // backdrop
     <div
