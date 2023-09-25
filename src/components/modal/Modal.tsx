@@ -1,6 +1,7 @@
 import { ReactNode, useEffect } from 'react'
 import { useStyle } from '@hooks/useStyle'
 import { X } from 'react-feather'
+import { createPortal } from 'react-dom'
 
 type Modal = {
   open: boolean
@@ -31,7 +32,7 @@ const Modal = ({ open = true, onClose, children }: Modal) => {
 
   if(!open) return null
 
-  return (
+  return createPortal(
     // backdrop
     <div
       onClick={onClose}
@@ -52,7 +53,8 @@ const Modal = ({ open = true, onClose, children }: Modal) => {
         </button>
         {children}
       </div>
-    </div>
+    </div>,
+    document.querySelector('#modals') || document.body
   )
 }
 
